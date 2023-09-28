@@ -35,7 +35,7 @@
                 {
                     if (guess == secretNumber)
                     {
-                        Console.WriteLine("Wohoo! Du klarade det!");
+                        Console.WriteLine($"Wohoo! Du klarade det! Med {maxTries - Tries} försök tillgodo!");
                         return guess;
                     }
                     else if (guess > secretNumber)

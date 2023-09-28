@@ -9,9 +9,7 @@
             Console.WriteLine("skriv in ditt nummer:");
 
 
-            Program program = new Program();
-            //int number = program.UserNumber();
-
+            Program program = new Program();         
             int randNumber = program.NumberGenerator();
 
             int guess = program.CheckGuess(randNumber);
